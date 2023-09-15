@@ -1,0 +1,12 @@
+pandas 
+numpy
+pymongo==4.2.0
+python-dotenv==0.21.0
+PyYAML
+Flask
+scipy
+dill
+sklearn
+
+
+-e .
