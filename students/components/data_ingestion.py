@@ -26,7 +26,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info('***************   Data Ingestion is started   *********************')
         try:
-            df = pd.read_csv("D:\Machine Learning Project\Student-Performance-Indicators\student.csv")
+            df = pd.read_csv("stud.csv")
             logging.info('Read the dataset as dataframe')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
