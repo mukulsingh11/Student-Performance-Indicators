@@ -16,7 +16,7 @@ def get_requirements()->List[str]:
 
 
 
-setup(name='recommendation',
+setup(name='students-performance',
       version='0.0.1',
       description='Student Performance Indicators Industry lavel project',
       author='Mukul Singh',
